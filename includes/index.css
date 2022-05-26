@@ -1,0 +1,279 @@
+body{
+    background-color: whitesmoke;
+    padding :0px;
+    margin:0px;
+    min-width: 1300px;
+    
+
+}
+
+.header{
+    background-color:rgb(32, 69, 138);
+    color:white;
+    text-align: bottom;
+    display:inline-block;
+    top:0px;
+    width:100%;
+    padding:1px;
+    min-width: 1100px;
+}
+.links{
+    padding-left: 800px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    
+  
+}
+
+.links li{
+    display:inline;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: larger;
+    width: 100%;
+    
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color:black;
+}
+a:active{
+    color:green;
+}
+a:hover{
+    color:red;
+}
+.who-we-are {
+    text-align:left ;
+    font-size:23px;
+    padding-top: 10px;
+    font-weight:normal;
+    color:black;
+    width: 100%;
+   
+}
+p{
+    margin:6;
+}
+
+.topcontainer::before{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0.5;
+    content:"";
+    z-index:-3;
+    background-image: url("../images/bluetrack.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    width:100%;
+    height :450px;
+}
+.topcontainer{
+   position:relative;
+   width:100%
+}
+.imagecontainer{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.goals {
+    display: inline-flex;
+    font-weight:normal ;
+    font-size: 19px;
+}
+.mission{
+    background-color:teal;
+    margin:10px;
+}
+.vision{
+    background-color:aqua;
+    margin:10px;
+}
+.corevalues{
+    background-color:aquamarine;
+    margin:10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+h3{
+    
+    font-size: 35px;
+    color:black;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+.acheivements {
+    display: inline-flex;
+    font-weight:normal ;
+    font-size: 21px;
+    font-weight: normal;
+    color:black;
+}
+
+.middle-container::before{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:.5;
+    content:"";
+    z-index:-3;
+    background-image: url("../images/customers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    width:100%;
+    min-height: 1500px;
+    height :550px;
+    min-height: 800px;
+    margin-top: -150px;
+    
+    
+}
+.middle-container{
+   position:relative;
+   width:100%
+   
+}
+
+.mid-container::before{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:.5;
+    content:"";
+    z-index:-3;
+    background-image: url("../images/bluetrack.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    margin-top:30px;
+    width :100%;
+    height :500px;
+    min-height: 100%;
+    
+   
+    
+}
+.mid-container{
+   position:relative;
+   margin-top: 40px;
+   width:100%
+}
+
+.supplies{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    color:black;
+}
+
+.start img{
+    margin-right: 60px;
+    margin-top: -10px;
+}
+
+.continuation img{
+    margin-right: 60px;
+}
+
+.continuation p {
+   padding-right: 100px;
+   margin-top: 10px;
+      
+}
+.continuation{
+    padding-top: 150px;
+}
+.sourcing-and-supply{
+    font-size: x-large;
+
+}
+.end{
+    padding-top: 260px;
+    margin-top: -100px;
+
+}
+.end p{
+    color:black;
+    
+}
+.office-supplies2 img{
+    margin-top: -70px;
+   
+
+}
+.bottom-container{
+    background-color:whitesmoke;
+    margin-top: 100px;
+}
+
+.footer{
+    background-color:rgb(32, 69, 138);
+    padding-bottom: 20px;
+    margin-top: 30px;
+    display:inline-flex;
+    width:100%;
+    font-size: large;
+   
+}
+.footer h5{
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.services{
+    margin: 30px;
+    margin-left: 0px;
+}
+.About{
+    margin: 30px;
+}
+.icons{
+    margin:30px;
+    display: table;
+    margin-left: 0px;
+    text-decoration: none;   
+}
+.icons h5{
+    margin-left: 30px;
+}
+.innner-icons ul{
+    display: table-cell; vertical-align: middle;
+    margin-left: 0px;
+   
+
+}
+
+.contactus{
+    margin:30px
+    
+}
+.contactus h5{
+    margin-left: 40px;
+
+}
+.copyrights p{
+    font-weight: bold;
+}
+

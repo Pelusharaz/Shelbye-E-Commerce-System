@@ -1,0 +1,35 @@
+.links{
+    padding-left: 900px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    
+  
+}
+
+.links li{
+    display:inline;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+    width: 100%;
+   
+    
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color:black;
+}
+a:active{
+    color:green;
+}
+a:hover{
+    color:red;
+}
+
+.forms{
+    padding-top: 30px;
+}

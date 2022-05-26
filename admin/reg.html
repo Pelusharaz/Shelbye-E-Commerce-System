@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type = "text/css" href ="../admin/admin.css">
+    <title>Register as Admin</title>
+</head>
+<body>
+    <form action="../admin/php/reg.php" method="POST">
+        <div class="form-container">
+            <div class="container">
+                <h1>Register as Admin</h1>
+                <hr>
+                <label for="Email"><b>email</b></label>
+                <input type="email" placeholder="Enter email" name="email" id="email" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter password" name="pass" id="password" required>
+                <hr>
+                
+                <button type="submit" class="registerbtn">register</button>
+                <br><a href="login.html"style="text-decoration:none;">Log in </a>
+              </div>
+        </div>
+    </form>
+
+    <style>
+        .form-container{
+            margin-left: 300px;
+            margin-right:300px;
+            margin-top: 100px;
+            
+           
+        }
+        .container {
+            background-color:aquamarine;
+             }
+        
+          /* Full-width input fields */
+          input[type=email], input[type=emai] {
+          width: 100%;
+          padding: 20px 0px 20px 0px;
+          margin: 4px 0 20px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        input[type=password], input[type=password] {
+          width: 100%;
+          padding: 20px 0px 20px 0px;
+          margin: 4px 0 20px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        
+        
+        /* Overwrite default styles of hr */
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 0px;
+        }
+        
+        /* Set a style for the submit button */
+        .registerbtn {
+          background-color: blue;
+          border-radius: 20px;
+          color: white;
+          padding: 20px 2px 20px 2px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 50%;
+          opacity: 0.9;
+          
+        }
+        
+        .registerbtn:hover {
+          opacity: 1;
+          color: red;
+        }
+        
+        /* Add a blue text color to links */
+        a {
+          color: dodgerblue;
+        }
+      </style>
+</body>
+</html>
